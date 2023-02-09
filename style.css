@@ -1,0 +1,44 @@
+.header{
+background-color:#1F2937;
+display:flex;
+flex:1 0 6vh;
+}
+.mid{
+background-color:greenyellow;
+flex:1 0 86vh;
+flex-direction:column;
+display:flex;
+}
+.footer{
+background-color:blueviolet;
+display:flex;
+flex:1 0 8vh;
+background-color:#1F2937;
+}
+body{
+display:flex;
+flex-direction:column;
+height:100vh;
+margin:0;
+}
+.links{
+    display:flex;
+}
+.sec1{
+    background-color:#1F2937;
+}
+.sec2{
+    background-color: beige;
+}
+.sec3{
+    background-color: grey;
+}
+.sec4{
+    background-color: beige;
+}
+.mid > *{
+    flex:1 1 25%;
+}
+.header > *{
+    margin:10px;
+}
