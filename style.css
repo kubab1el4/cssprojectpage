@@ -39,6 +39,11 @@ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ox
 }
 .sec2{
     background-color: beige;
+    display:flex;
+    height:40vh;
+    padding:30px;
+    justify-content:center;
+    flex-direction:column;
 }
 .sec3{
     background-color: grey;
@@ -64,10 +69,6 @@ color: #F9FAF8;
 font-weight: bold;
 padding-left:50px;
 }
-.image{
-    display:flex;
-    width:50vw;
-}
 .hero{
     flex:1 1 50%;
     font-size:18px;
@@ -92,4 +93,33 @@ img{
     padding-left:10px;
     border-radius: 15px;
     font-weight: bold;
+}
+.sec2head{
+    font-size:36px;
+    font-weight: bolder;
+    color:#1F2937;
+    display:flex;
+    justify-content: center;
+    padding-bottom:40px;
+}
+.imagecard{
+    flex:1 1 25%;
+    height:20vh;
+    display:flex;
+    flex-direction: row;
+    width:10vw;
+    flex-wrap: wrap;
+}
+.sec2content{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    padding-left:80px;
+    padding-right:80px;
+    padding-bottom:80px;
+}
+.imagetext{
+    flex:0 1 100%;
+    word-wrap: break-word;
+    width:100%;
 }
